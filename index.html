@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width' />
+    <title>expressway.cochran</title>
+    <link href='styles.css' rel='stylesheet' type='text/css' />
+  </head>
+  <!-- break -->
+  <div class='container'>
+
+    <!-- break -->
+
+    <div class='body-container'>
+      <div class='review-container'>
+         <div class='item-order'>
+            <div class='review-title'>
+               <div>THE REVIEWS</div>
+               <div>ARE IN</div>
+            </div>
+         </div>
+         <div>
+            <div class='google-review1'>
+               <div class='rating'> &#11088;&#11088;&#11088;&#11088;&#11088; (5 out of 5) </div>
+               <div class='rating-p'> Now this is how to buy a car. Over the years I’ve wasted so much time in dealerships. Never again. Definitely recommend. I’ll be a repeat customer for sure. </div>
+               <div class='persons-name'> <img class='google' src='https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2022/01/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png' alt='/><span class='name'> Annie H.</span> </div>
+            </div>
+         </div>
+         <div>
+            <div class='google-review2'>
+               <div class='rating'> &#11088;&#11088;&#11088;&#11088;&#11088; (5 out of 5) </div>
+               <div class='rating-p'> My local dealership said they would have to order the model I wanted and I’d get it in about a month. Expressway had a bunch in stock. I did the lease online and they dropped off the car two days later. Great experience! </div>
+               <div class='persons-name1'> <img class='google' src='https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2022/01/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png' alt='/><span class='name'> Steve S.</span> </div>
+            </div>
+         </div>
+      </div>
+   </div>
+    
+<!--
+  
+      <div>
+        <img
+          class='google-review1'
+          src='https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/Google-Reviews-300x300.png'
+          alt='google review'
+        />
+      </div>
+
+      <div>
+        <img
+          class='google-review2'
+          src='https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/Google-Reviews-300x300.png'
+          alt='google review'
+        />
+      </div>
+      -->
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+    </div>
+
+    <!--FAQ1-->
+    
+<!--FAQ Section JS-->
+</html>

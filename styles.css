@@ -1,0 +1,1091 @@
+  /* Style The Dropdown Button */
+  .dropbtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content1 a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+    
+  .Section {
+    padding: 5rem 0;
+  }
+  
+  .HpHero.HpHero--marketplace.HpHero--light {
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding-top: 15%;
+    padding-bottom: 45%;
+    display: block;
+    animation: header-load 400ms ease-in;
+  }
+  
+  div h1 span {
+    color: black !important;
+  }
+  
+  
+  
+  .text-center.px-3.mb-3 {
+    margin-bottom: 0;
+  }
+  .Hero-topRight.RdCloak-invisible {
+    display: none;
+  }
+  
+  
+  .HpHero-menu.RdCloak-invisible {
+    display: none;
+    visibility: hidden;
+  }
+  button.font-semi-bold.uppercase.text-base {
+    display: none;
+  }
+  .sm\:text-md {
+    display: none;
+  }
+  footer.relative.z-4.print\:hidden.RdCloak-hide {
+    background-color: black;
+  }
+  
+  a {
+    all: unset;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0;
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+  }
+  
+  .body-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-container {
+    background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0074-Recovered-Recovered.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    padding-top: 15%;
+    padding-bottom: 45%;
+    
+  }
+  
+  .main-title {
+    color: black;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 500;
+  }
+  
+  .sub-title {
+    margin-top: 2%;
+    color: black;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  
+  .color-change {
+    color: #eb1c2c;
+    font-weight: bold;
+  }
+  
+  .btn-group {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+  
+  .btn1 {
+    font-size: 2.5vw;
+    color: white;
+    background-color: #eb1c2c;
+    padding: 6px 8px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+  }
+  
+  .title-disc {
+    color: black;
+    margin-top: 2%;
+    font-size: 2vw;
+    text-align: center;
+  }
+  
+  .title-two {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 5vw;
+  }
+  
+  .sub-title-two {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  
+  .cta-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  
+  .cta {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    justify-content: center;
+    grid-gap: 5%;
+    margin: 8% 10%;
+    font-weight: bold;
+  }
+  
+  .cta-1 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #eb1c2c;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 3vw;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  /*
+  .cta-btn {
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid white;
+    font-size: 3vw;
+    color: white;
+    background-color: #eb1c2c;
+    padding: 6px 2px;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 25vw;
+  }
+  */
+  
+  .cta-btn {
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 3vw;
+    color: white;
+    background-color: #eb1c2c;
+    padding: 6px 0px;
+    transition: 0.3s;
+    cursor: pointer;
+    white-space: nowrap;
+    display: block;
+    margin: 5px auto;
+    width: 36vw;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .cta-btn:hover {
+    background-color: black;
+  }
+  
+  .sub-title-three {
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-size: 4.25vw;
+  }
+  
+  .description-1 {
+    margin: 5% 0;
+    color: black;
+    text-align: center;
+    font-size: 4vw;
+    padding: 0 5%;
+    line-height: 1.3;
+  }
+  
+  .how-to-video-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 15px 0 15% 0;
+    margin: 2.5%;
+  }
+  
+  .how-to-video {
+    /*
+    display: block;
+    margin: 10% auto;
+    width: 95%;
+    */
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  
+  .vid-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #eaebec;
+    color: white;
+    padding: 15px 10px 7% 10px;
+    margin: 2.5%;
+  }
+  
+  .vid-container-white {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 15px 10px 7% 10px;
+    margin: 2.5%;
+  }
+  
+  .vid-in-container {
+    /*
+    width: 95%;
+    margin: 5% auto;
+    display: block;
+    height: auto;
+    */
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  
+  .yt-iframe {
+    margin: 5% auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .vid-in-container-white {
+    /*
+    width: 95%;
+    margin: 5% auto;
+    display: block;
+    height: auto;
+    */
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  
+  .video-title {
+    text-align: center;
+    margin-top: 2%;
+    padding: 0 10px;
+    color: black;
+    font-size: 4.25vw;
+    font-weight: bold;
+    line-height: 1.1;
+  }
+  
+  .video-text {
+    text-align: center;
+    margin-top: 5%;
+    padding: 0 10px;
+    color: black;
+    font-size: 4vw;
+    line-height: 1.3;
+  }
+  
+  .video-title-white {
+    text-align: center;
+    margin-top: 2%;
+    padding: 0 10px;
+    color: black;
+    font-size: 4.25vw;
+    font-weight: bold;
+    line-height: 1.1;
+  }
+  
+  .video-text-white {
+    text-align: center;
+    margin-top: 5%;
+    padding: 0 10px;
+    color: black;
+    font-size: 4vw;
+    line-height: 1.3;
+  }
+  
+  .review-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0039-Recovered.jpg");
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: right top;
+    justify-content: center;
+    grid-gap: 10px;
+  }
+  
+  .google-review1 {
+    background-color: white;
+    display: block;
+    margin: 0 10% 0 10%;
+    padding: 4%;
+    font-size: 3.5vw;
+  }
+  
+  .rating {
+    margin: 5% 0;
+  }
+  
+  .rating-name {
+    font-weight: bold;
+    margin: 5% 0;
+  }
+  
+  .rating-p {
+    margin: 0;
+    line-height: 1.3;
+  }
+  
+  .persons-name {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 42px;
+  }
+  .persons-name1 {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 20px;
+  }
+  
+  .google {
+    width: 20px;
+  margin: -2px 0 10px 0;
+  }
+  
+  .name {
+    margin: 12px 3px;
+    font-weight: bold;
+  }
+  
+  .google-review2 {
+    background-color: white;
+    display: block;
+    margin: 0 10% 10% 10%;
+    padding: 4%;
+    font-size: 3.5vw;
+  }
+  
+  .review-title {
+    text-align: center;
+    margin-top: 5%;
+    padding: 15px 10px 0 10px;
+    color: black;
+    font-size: 5vw;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  @media screen and (min-width: 480px) {
+    .main-title {
+      font-size: 5vw;
+    }
+  
+    .sub-title {
+      margin-top: 0%;
+      font-size: 3vw;
+    }
+  
+    .btn-group {
+      margin-top: 4%;
+      justify-content: space-evenly;
+    }
+  
+    .btn1 {
+      font-size: 1.75vw;
+      padding: 8px 16px;
+    }
+  
+    .title-disc {
+      margin-top: 2%;
+      font-size: 2vw;
+    }
+  
+    .title-two {
+      font-size: 5vw;
+    }
+  
+    .sub-title-two {
+      font-size: 3vw;
+    }
+  
+    .cta {
+      grid-template-columns: 25vw 25vw;
+    }
+  
+    .cta-1 {
+      font-size: 2.75vw;
+    }
+  
+    .cta-btn {
+        margin-top: 12px;
+        font-size: 2.5vw;
+        width: 25vw;
+        border-radius: 10px;
+    }
+  
+    .sub-title-three {
+      margin-top: 4%;
+      font-size: 4.25vw;
+    }
+  
+    .description-1 {
+      margin-top: 5%;
+      font-size: 4vw;
+    }
+  
+    .review-title {
+      font-size: 22px;
+    }
+  
+    .google {
+      width: 20px;
+    margin: 2px 0 10px 0;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header-container {
+      background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0074-Recovered-Recovered.jpg");
+      background-repeat: no-repeat;
+      background-size: 165%;
+      background-position: center;
+      padding-top: 18%;
+      padding-bottom: 43%;
+    }
+  
+    .HpHero.HpHero--marketplace.HpHero--light {
+      background-repeat: no-repeat;
+      background-size: 165%;
+      background-position: bottom 82% left 50%;
+      padding-top: 18%;
+      padding-bottom: 78%;
+      display: block;
+      margin-top: 0;
+      height: 0%;
+    }
+  
+    .btn-group {
+      margin-top: 4%;
+      justify-content: center;
+    }
+  
+    .btn1 {
+      padding: 8px 15px;
+      margin: 0 18px;
+      border-radius: 15px;
+    }
+  
+    .cta {
+        grid-template-columns: 33% 33% 33%;
+        justify-content: center;
+        grid-gap: 0%;
+    }
+  
+    .cta-1 {
+      padding: 15px 0px;
+      font-size: 20px;
+    }
+  
+    .cta-btn {
+        font-size: 18px;
+        padding: 6px 2px;
+        width: 82%;
+        border-radius: 15px;
+    }
+  
+    .sub-title-three {
+      font-size: 3.5vw;
+    }
+  
+    .description-1 {
+      font-size: 2vw;
+      padding: 0 12%;
+    }
+  
+    .how-to-video-container {
+      display: grid;
+      grid-template-columns: auto;
+      padding: 0px 13% 15% 13%;
+      margin: 0;
+    }
+  
+    .how-to-video {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .vid-container {
+      grid-template-columns: 50% 50%;
+      padding: 15px 30px 7% 10px;
+      margin: 0;
+    }
+  
+    .vid-in-container {
+      width: 100%;
+    }
+  
+    .video-title {
+      text-align: start;
+      margin-top: 8%;
+      font-size: 2.5vw;
+      padding: 0 8% 0 30px;
+    }
+  
+    .video-text {
+      text-align: start;
+      margin: 5% 0;
+      padding: 0 8% 0 30px;
+      font-size: 2vw;
+    }
+  
+    .vid-container-white {
+      grid-template-columns: 50% auto;
+      padding: 15px 30px 7% 10px;
+      margin: 2.5%;
+    }
+  
+    .video-title-white {
+      text-align: start;
+      padding: 0 10px 0 10%;
+      margin-top: 8%;
+      font-size: 2.5vw;
+    }
+  
+    .video-text-white {
+      text-align: start;
+      margin: 5% 0;
+      padding: 0 10px 0 10%;
+      font-size: 2vw;
+    }
+  
+    .vid-in-container-white {
+      width: 100%;
+    }
+  
+    .item-order {
+      order: 2;
+    }
+  
+    .review-title {
+      font-size: 32px;
+      margin: 135px auto 50% 30px;
+      padding: 15px 10% 0 10px;
+    }
+  
+    .review-container {
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: auto auto auto;
+      background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0039-Recovered.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: right top;
+      justify-content: center;
+      grid-gap: 0px;
+    }
+  
+    .review-title {
+      text-align: center;
+      margin-top: 45%;
+      padding: 15px 10px 0 0px;
+      color: black;
+      font-size: 28px;
+    }
+  
+    .google-review1 {
+      display: block;
+      margin: 10% 0% 10% 10%;
+      padding: 4%;
+      font-size: 2vw;
+    }
+  
+    .google-review2 {
+      display: block;
+      margin: 10% 0% 10% 10%;
+      padding: 4%;
+      font-size: 2vw;
+    }
+  
+    .google {
+      width: 20px;
+    margin: -2px 0 10px 0;
+    }
+  
+    .persons-name {
+      display: grid;
+      grid-template-columns: 10% 90%;
+      margin-top: 59px;
+  }
+  }
+  
+  @media screen and (min-width: 992px) {
+  
+    .HpHero.HpHero--marketplace.HpHero--light {
+      background-repeat: no-repeat;
+      background-size: 165%;
+      background-position: bottom 79% left 50%;
+      padding-top: 18%;
+      padding-bottom: 69%;
+      display: block;
+      margin-top: 0;
+      height: 0%;
+    }
+    .main-title {
+      font-size: 42px;
+    }
+  
+    .sub-title {
+      margin-top: 0%;
+      font-size: 30px;
+    }
+  
+    .btn-group {
+      justify-content: center;
+      margin-top: 4%;
+    }
+  
+    .btn1 {
+      font-size: 20px;
+      padding: 10px 22px;
+      border-radius: 18px;
+    }
+  
+    .title-disc {
+      margin-top: 3%;
+      font-size: 20px;
+    }
+  
+    .title-two {
+      margin-top: 8%;
+      font-size: 42px;
+    }
+  
+    .sub-title-two {
+      margin-top: 2%;
+      font-size: 26px;
+    }
+
+  
+    .cta-1 {
+      padding: 15px 0px;
+      font-size: 24px;
+    }
+  
+    .cta-btn {
+        font-size: 20px;
+        padding: 6px 2px;
+        width: 70%;
+        border-radius: 18px;
+        padding: 10px 22px;
+    }
+  
+    .sub-title-three {
+      margin-top: 5%;
+      font-size: 30px;
+    }
+  
+    .description-1 {
+      margin-top: 5%;
+      padding: 0 10%;
+    }
+  
+    .how-to-video-container {
+      display: grid;
+      grid-template-columns: auto;
+      padding: 15px 13% 15% 13%;
+    }
+  
+    .how-to-video {
+      width: 100%;
+  
+    }
+  
+    .vid-container {
+      grid-template-columns: auto 50%;
+      padding: 25px 30px 7% 10px;
+    }
+  
+    .video-title {
+      margin-top: 9%;
+      font-size: 24px;
+    }
+  
+    .video-text {
+      font-size: 1.75vw;
+    }
+  
+    .video-title-white {
+      margin-top: 12%;
+      font-size: 24px;
+    }
+  
+    .video-text-white {
+      font-size: 1.75vw;
+    }
+  
+    .vid-container-white {
+      grid-template-columns: 50% auto;
+      padding: 25px 10px 7% 30px;
+    }
+  
+    .review-title {
+      font-size: 40px;
+      margin: 50px 25px 50% 25px;
+      padding: 15px 10% 0 0px;
+    }
+  
+    .google-review1 {
+      display: block;
+      margin: 13% 0% 10% 10%;
+      padding: 4%;
+      font-size: 1.75vw;
+    }
+  
+    .google-review2 {
+      display: block;
+      margin: 13% 0% 10% 10%;
+      padding: 4%;
+      font-size: 1.75vw;
+    }
+  
+    .rating-name {
+      font-weight: bold;
+      margin: 2.5% 0;
+    }
+  
+    .review-container {
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: auto auto auto;
+      background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0039-Recovered.jpg");
+      background-repeat: no-repeat;
+      background-size: 110%;
+      background-position: right -75px bottom -75px;
+      justify-content: center;
+      grid-gap: 0px;
+    }
+  
+    .persons-name {
+      display: grid;
+      grid-template-columns: 10% 90%;
+      margin-top: 63px;
+  }
+  
+  .google {
+    margin-top: 2.5px;
+  }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .body-container {
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 1200px;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .header-container {
+      background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0074-Recovered-Recovered.jpg");
+      background-repeat: no-repeat;
+      background-size: 112%;
+      background-position: bottom 567% left 50%;
+      padding-top: 18%;
+      padding-bottom: 55%;
+      display: block;
+      margin-top: 0;
+      height: 0%;
+    }
+  
+    .HpHero.HpHero--marketplace.HpHero--light {
+      background-repeat: no-repeat;
+      background-size: 112%;
+      background-position: bottom 110% left 50%;
+      padding-top: 150px;
+      padding-bottom: 52%;
+      display: block;
+      height: 14%;
+    }
+  
+    .main-title {
+      font-size: 52px;
+    }
+  
+    .sub-title {
+      margin-top: 0px;
+      font-size: 34px;
+      font-weight: bold;
+    }
+  
+    .btn-group {
+      justify-content: center;
+      margin-top: 50px;
+    }
+  
+    .btn1 {
+      font-size: 20px;
+      padding: 8px 20px;
+      border-radius: 18px;
+    }
+  
+    .title-disc {
+      margin-top: 18px;
+      font-size: 21px;
+    }
+  
+    .title-two {
+      margin-top: 50px;
+      font-size: 52px;
+    }
+  
+    .sub-title-two {
+      font-size: 31px;
+      font-weight: bold;
+    }
+  
+    .cta-1 {
+      font-weight: bold;
+      padding: 35px 5px;
+      font-size: 30px;
+    }
+  
+    .cta-btn {
+      margin-top: 16px;
+      font-size: 24px;
+      padding: 8px 2px;
+      border-radius: 18px;
+      width: 80%;
+    }
+  
+    .sub-title-three {
+      margin-top: 45px;
+      font-size: 38px;
+    }
+  
+    .description-1 {
+      margin-top: 30px;
+      line-height: 1.3;
+      font-size: 22px;
+      padding: 0 12%;
+    }
+  
+    .how-to-video-container {
+      padding: 15px 150px 15% 150px;
+    }
+  
+    .how-to-video {
+      width: 100%;
+    }
+  
+    .vid-container {
+      grid-template-columns: 600px 550px;
+      justify-content: center;
+      padding: 35px 30px 85px 10px;
+    }
+  
+    .vid-container-white {
+      grid-template-columns: 550px 600px;
+      justify-content: center;
+      padding: 15px 10px 55px 30px;
+    }
+  
+    .video-title {
+      margin-top: 10%;
+      font-size: 28px;
+      font-weight: bold;
+      line-height: 1.1;
+    }
+  
+    .video-text {
+      font-size: 22px;
+    }
+  
+    .video-title-white {
+      margin-top: 12%;
+      font-size: 28px;
+    }
+  
+    .video-text-white {
+      font-size: 22px;
+    }
+  
+    .review-title {
+      font-size: 46px;
+      margin: 90px 0 50px 0px;
+      padding: 15px 10% 0 0px;
+    }
+  
+    .google-review1 {
+      display: block;
+      margin: 65px 0 50px 40px;
+      padding: 10px 10px 10px 35px;
+      font-size: 18px;
+    }
+  
+    .google-review2 {
+      display: block;
+      margin: 65px 0 50px 20px;
+      padding: 10px 10px 10px 35px;
+      font-size: 18px;
+    }
+  
+    .rating-p {
+      margin: 0 25px 0 0;
+      line-height: 1.6;
+    }
+  
+    .persons-name {
+      margin-top: 88.5px
+    }
+  
+    .persons-name1 {
+      margin-top: 30px
+    }
+  
+    .google {
+      width: 20px;
+      margin: 3px 0 10px 0;
+  }
+  
+    .name {
+      margin: 10px 3px 25px 0;
+    }
+  
+    .review-container {
+      grid-template-columns: 32% 32% 36%;
+      background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0039-Recovered.jpg");
+      background-repeat: no-repeat;
+      background-size: 105%;
+      background-position: right -50px bottom -55px;
+      justify-content: space-around;
+      grid-gap: 0px;
+    }
+  }
+  
+  @media screen and (min-width: 1366px) {
+    .header-container {
+      background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0074-Recovered-Recovered.jpg");
+      background-repeat: no-repeat;
+      background-size: 110%;
+      background-position: bottom 60% left 50%;
+      padding-bottom: 27%;
+    }
+  
+    .HpHero.HpHero--marketplace.HpHero--light {
+      background-repeat: no-repeat;
+      background-size: 110%;
+      background-position: bottom 72% left 50%;
+      padding-bottom: 45%;
+      display: block;
+      height: 0;
+    }
+  }
+  
+  @media screen and (min-width: 1920px) {
+    .header-container {
+      background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0074-Recovered-Recovered.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top -175px left 0px;
+      padding-bottom: 450px;
+    }
+  
+    .HpHero.HpHero--marketplace.HpHero--light {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top -175px left 0px;
+      padding-bottom: 750px;
+      display: block;
+      height: 0;
+    }
+  }
+  
+  @media screen and (min-width: 2560px) {
+    .header-container {
+      background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2021/12/111921_ity_cochran_0074-Recovered-Recovered.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top -375px left 0px;
+      padding-bottom: 600px;
+    }
+  
+    .HpHero.HpHero--marketplace.HpHero--light {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top -375px left 0px;
+      padding-bottom: 900px;
+      display: block;
+    }
+  }
